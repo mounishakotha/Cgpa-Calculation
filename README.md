@@ -47,13 +47,14 @@ After installation of softwares we need to create roles in database as follows:
 	CREATE DATABASE vagrant
 	CREATE DATABASE news
 	ALTER DATABASE vagrant OWNER TO vagrant
-	ALTER DATABASE news OWNER TO vagrant```
-
-After creation, we need to load database as 
-``` psql -d news -f newsdata.psql 
+	ALTER DATABASE news OWNER TO vagrant
 ```
 
-# About Questions & Answers #
+After creation, we need to load database as 
+```  psql -d news -f newsdata.psql 
+```
+
+# Questions & Answers #
 1.What are the most popular three articles of all time?
 In this question, we need to create a view , query to find the top three articles 
 from the database of all the time.
