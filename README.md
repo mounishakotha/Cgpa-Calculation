@@ -2,12 +2,12 @@
 Log analysis is a part of **Udacity Nanodegree Full Stack Project.**
 
 
-# About Project #
+## About Project ##
 In this project, we'll analyze data from a web service's logs, practicing
 command-line and database  skills, particularly with a focus on building advanced 
 SQL queries.
 
-# Techologies Used #
+## Techologies Used ##
 1.PostgreSQL
 2.Python
 3.Vagrant
@@ -51,10 +51,12 @@ After installation of softwares we need to create roles in database as follows:
 ```
 
 After creation, we need to load database as 
-```  psql -d news -f newsdata.psql 
+```
+psql -d news -f newsdata.psql 
+
 ```
 
-# Questions & Answers #
+## Questions & Answers ##
 1.What are the most popular three articles of all time?
 In this question, we need to create a view , query to find the top three articles 
 from the database of all the time.
@@ -91,5 +93,5 @@ In python file we need to write views and queries for the given questions.The vi
 ```
 
 
-# Output:
+## Output:
 
