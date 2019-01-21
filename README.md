@@ -22,19 +22,22 @@ SQL queries.
 **Process After Installation:**
 Open terminal and the commands to install any virtual software:
 ```vagrant box add ubuntu/trusty64
-   vagrant init```
+   vagrant init 
+   ```
 
 Open terminal and the following commands to connect to virtual box:
 ```vagrant up
-   vagrant ssh```
+   vagrant ssh 
+   ```
 
 After connection established install the softwares need to execute the the project as follows:
 ```
 	sudo apt-get install pyhton3
 	sudo apt-get install python-pip
 	sudo apt-get install postgresql
-	sudo apt-get install python-psycopg2```
-
+	sudo apt-get install python-psycopg2
+```
+	
 After installation of softwares we need to create roles in database as follows:
 ```	CREATE ROLE vagrant
 	ALTER USER vagrant with superuser
@@ -46,7 +49,8 @@ After installation of softwares we need to create roles in database as follows:
 	ALTER DATABASE vagrant OWNER TO vagrant
 	ALTER DATABASE news OWNER TO vagrant```
 
-After creation, we need to load database as ```psql -d news -f newsdata.psql```
+After creation, we need to load database as ``` psql -d news -f newsdata.psql 
+```
 
 # About Questions & Answers#
 1.What are the most popular three articles of all time?
@@ -82,6 +86,7 @@ In python file we need to write views and queries for the given questions.The vi
             round(100.0*sum(case log.status when '404 NOT FOUND' then 1 else 0
             end)/count(log.status) , 4) as error from log group by
             date(time) """
+```
 
 
 # Output:
