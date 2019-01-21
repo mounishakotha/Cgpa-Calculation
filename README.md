@@ -1,13 +1,13 @@
-##LOG ANALYSIS##
+#LOG ANALYSIS#
 Log analysis is a part of **Udacity Nanodegree Full Stack Project.**
 
 
-##About Project ##
+#About Project #
 In this project, we'll analyze data from a web service's logs, practicing
 command-line and database  skills, particularly with a focus on building advanced 
 SQL queries.
 
-##Techologies Used ##
+#Techologies Used #
 1.PostgreSQL
 2.Python
 3.Vagrant
