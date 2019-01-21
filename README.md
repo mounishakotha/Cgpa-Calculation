@@ -1,25 +1,25 @@
-#LOG ANALYSIS#
+# LOG ANALYSIS #
 Log analysis is a part of **Udacity Nanodegree Full Stack Project.**
 
 
-#About Project #
+# About Project #
 In this project, we'll analyze data from a web service's logs, practicing
 command-line and database  skills, particularly with a focus on building advanced 
 SQL queries.
 
-#Techologies Used #
+# Techologies Used #
 1.PostgreSQL
 2.Python
 3.Vagrant
 4.Virtual Box
 
 
-##Installation Process:##
+## Installation Process: ##
 1. Install Vagrant and VirtualBox
 2. Download the database setup: [data](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
 3. Unzip the data to get the newsdata.sql file.
 
-** Process After Installation:**
+**Process After Installation:**
 Open terminal and the commands to install any virtual software:
 ```vagrant box add ubuntu/trusty64
    vagrant init```
@@ -48,7 +48,7 @@ After installation of softwares we need to create roles in database as follows:
 
 After creation, we need to load database as ```psql -d news -f newsdata.psql```
 
-## About Questions & Answers##
+# About Questions & Answers#
 1.What are the most popular three articles of all time?
 In this question, we need to create a view , query to find the top three articles 
 from the database of all the time.
@@ -84,5 +84,5 @@ In python file we need to write views and queries for the given questions.The vi
             date(time) """
 
 
-###Output:
+# Output:
 
