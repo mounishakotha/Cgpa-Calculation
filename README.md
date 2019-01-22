@@ -1,6 +1,6 @@
 # Calculation of CGPA in our college code
 # ITEM CATLOG #
-This is a web application project in * Udacity Full Stack Nanodegree *
+This is a web application project in ** Udacity Full Stack Nanodegree **
 
 ## Introduction ##
 This project is about developing a web application using Flask framework and accessing database using* CRUD * operations and also providing * Authentication * by Google and Facebook API's.
